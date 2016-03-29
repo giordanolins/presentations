@@ -3,6 +3,9 @@ Repositório de slides usados em palestras e eventos públicos
 
 ### Eventos
 
+#### 28/03/2016 - Framework ASP.NET MVC e Web API da Microsoft
+Apresentação realizada à equipe IVIA na sede do Detran-PE.
+
 #### 16/11/2015 - Framework ASP.NET MVC e Web API da Microsoft
 Apresentação realizada à equipe IVIA na sede do Detran-PE.
 
