@@ -17,22 +17,71 @@
 
 - Bower
 
-    É um gerenciador de dependências criado pelo Titter para resolver as dependências de componentes HTML, CSS, Javascript, fontes e até mesmo imagens.
-
-    
+    É um gerenciador de dependências criado pelo Twitter para resolver as dependências de componentes HTML, CSS, Javascript, fontes e até mesmo imagens.
 
 - Gulp
+
+    É uma ferramenta de build para o front-end. O Gulp provê um framework que auxilia o processo de build do desenvolvedor web. Os recursos do Gulp são distribuiídos em forma de plugins que extendem a capacidade do mesmo.
+
+    ```javascript
+    gulp.task('sass', function() {
+      return sass('src/styles/main.scss', { style: 'expanded' })
+        .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
+        .pipe(gulp.dest('dist/assets/css'))
+    });
+    ```
+
 - Git
+
+    É um sistema de controle de versão distribuído gratuito e open source desenhado para gerenciar projetos de todos os tamanhos com velocidade e eficiência.
+    
+    É fácil de aprender e tem um footprint muito pequeno, com uma performance incrível. Ele ultrapassa seus principais concorrentes com recursos como branches locais "baratos", areas de elencagem de conveniência, e multiplos workflows.
+
 - OS (Linux / Mac / Windows)
+
 - Cloud (Amazon / DigitalOcean / OpenShift)
+
+    - Aplicações hospedadas em VPS
+    - Aplicações escaláveis
+    - Menor custo operacional
+    - Melhor custo/benefício
+
 - Vagrant / Docker
+
+    - Ambientes de desenvolvimento virtualizados
+    - Nada de "Funciona na minha máquina"
+    - Ambientes de desenvolvimentos muito próximos (ou iguais) ao de produção
 
 ### Padrões
 
 - PSR's (PHP Fig)
+
+    0 - Autoloading Standard (Deprecated)
+    1 - Basic Coding Standard
+    2 - Conding Style Guide
+    3 - Logger Interface
+    4 - Autoloading Standard
+    6 - Caching Interface
+    7 - HTTP Message Interface
+
 - Padrões de Projeto
+
+    Um Design Pattern é uma solução geral reutilizável para um problema que ocorre com frequência dentro de um determinado contexto no projeto de software. 
+
 - S.O.L.I.D
-- DDD
+
+    São cinco princípios de desenho orientado a objetos. Eles têm a intenção de fazer com que um sistema criado seja mais fácil de manter e extender (evoluir).
+    
+    - SRP - Single Responsability
+    - OCP - Open-Closed
+    - LSP - Liskov Substitution
+    - ISP - Interface Segregation
+    - DIP - Dependency Inversion
+
+- DDD (Domain-Driven Design)
+
+    É uma abordagem de desenvolvimento de softwares complexos que visa a implementação conectada diretamente com a evolução do modelo de negócio.
+
 - Frameworks
 
 ### Frameworks
@@ -43,10 +92,24 @@
 
 ### PHP 7
 
+http://tableless.com.br/10-novidades-do-php-7/
+
+- Desempenho! Muito desempenho!!!
+- Erros fatais, no more! Exeptions! \o/
 - Evolução da Linguagem
+
     - Traits
     - Funções Anônimas
-- Objetos Anônimos
+
+    - Funções mysql_* e ereg_* removidas 
+    - Construtores do PHP4 obsoletos
+    - Tipos Escalares (Linguagem francamente tipada)
+    - Tipos de retorno em funções e métodos
+    - Novo operador <=> "Spaceship"
+    - Null COalesce Operator (??)
+    - Classes Anônimas
+
+
 
 ### Orientação a Objetos
 
