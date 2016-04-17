@@ -3,6 +3,9 @@ Repositório de slides usados em palestras e eventos públicos
 
 ### Eventos
 
+#### 16/04/2016 - Desenvolvimento Moderno com PHP
+Palestra realizada no FLISoL 2016 - Jaboatão dos Guararapes na Faculdade Maurício de Nassau.
+
 #### 28/03/2016 - Produtividade com Git
 Apresentação realizada à equipe IVIA na sede do Detran-PE.
 
